@@ -1,0 +1,17 @@
+#square {
+  width: 100px;
+  height: 100px;
+  background-color: violet;
+  box-shadow: 0 0 15px palevioletred;
+  position: absolute;
+  animation: move 5s linear infinite;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(400px) translateY(300px);
+  }
+}
